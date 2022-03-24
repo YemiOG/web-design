@@ -72,10 +72,14 @@ h1 {
 }
 img {
   width: 100%;
+  border-radius: 12px;
 }
 
 /* FEATURES */
 .features-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
 }
 
 .features-title {
@@ -90,6 +94,10 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  padding: 24px;
+  color: #fff;
+  border-radius: 12px;
 }
 
 .testimonial-box {
@@ -107,9 +115,18 @@ img {
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.7;
+  color: #fff;
 }
 
 /* CHAIRS */
+.chair {
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+}
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 .chair-box {
   padding: 24px;
 }
@@ -135,6 +152,9 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #087f5b;
+  height: 24px;
+  width: 24px;
 }
 
 .chair-price {
@@ -145,4 +165,30 @@ h3 {
 
 footer {
   margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #087f5b;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+
+  display: inline-block;
+  border-radius: 100px;
+}
+.btn:hover,
+.btn:active {
+  background-color: #099268;
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 16px 32px;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
 }
